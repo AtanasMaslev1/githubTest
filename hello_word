@@ -1,0 +1,38 @@
+print("------Task_1-----")
+print("HelloWord")
+
+greeting_phrase = "HelloWord"
+print(greeting_phrase)
+
+user_input = input("Please enter your name: ")
+print("Hello " + user_input)
+
+print("-----Task_2-----")
+word = "hello word"
+
+lower_word = word.lower()
+print(lower_word)
+
+upper_word = word.upper()
+print(upper_word)
+
+capital_word = word.capitalize()
+print(capital_word)
+
+split_word = word.split(",")
+print(split_word)
+
+print("----Task_3-----")
+two_word = "===hello===word==="
+strip_word = two_word.strip("=") # remove the === front and the end
+print(strip_word)
+
+replase_word = word.replace("l", "@") # replase "L" with @
+print(replase_word)
+
+print("----Task_4-----")
+word = "Madaskar"
+position = word[0]
+position_1 = word[0:6] #print from 0 to 6
+print(position)
+print(position_1)
